@@ -34,36 +34,6 @@ Run the script using python your_script.py.
 2. Update the `pdf_path` variable with the paths of your PDF files.
 3. Run the script to extract text, find keywords and numbers, and calculate the cosine similarity between the invoices.
 
-## Script Details
-
-### `extract_text_from_pdf(pdf_path)`
-
-Extracts text from the first page of the given PDF file.
-
-### `check_keywords_in_text(text, keywords)`
-
-Checks for the presence of specified keywords in the extracted text.
-
-### `find_numbers(text)`
-
-Finds all numbers in the extracted text.
-
-### `compare_texts(text1, text2)`
-
-Compares two texts line by line and returns the differences.
-
-### `main`
-
-The main function extracts text from the PDFs, checks for keywords, finds numbers, and calculates the cosine similarity between the invoices.
-
-## Running the Script
-
-Run the script using Python:
-
-```bash
-python abcd.py
-
-Output
 The script will output:
 
 Extracted text from each PDF
