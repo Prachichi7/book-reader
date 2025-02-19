@@ -12,17 +12,7 @@ Matching: The system compares the cosine similarity scores of the new invoice wi
 
 Note: This is a basic implementation, and more advanced techniques can be explored for better accuracy.
 
-Dependencies
-Python 3.x
-NumPy
-PyPDF2
-re (regular expressions)
-scikit-learn
-
-Installation:
-cmd
-pip install numpy PyPDF2 scikit-learn
-
+Installation: pip install numpy PyPDF2 scikit-learn
 
 Running the Code
 Download the code and the provided invoice data (Do not upload data online!).
